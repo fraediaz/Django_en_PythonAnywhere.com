@@ -114,7 +114,7 @@ application = get_wsgi_application()
 ```
 
 
-## Reoad a la Aplicación y automágicamente; Listo!
+## Reload a la Aplicación y automágicamente; Listo!
 
 ![Farmers Market Finder Demo](gifs/2.gif)
 
