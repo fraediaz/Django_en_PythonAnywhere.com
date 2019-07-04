@@ -10,8 +10,9 @@ Vamos a necesitar GitHub para mover el proyecto, y un entorno virtual para Pytho
 
 ### Pre-Requisitos
 
-What things you need to install the software and how to install them
+Dentro de https://pythonanywhere.com y con la cuenta gratuita configurada; haremos lo siguiente. 
 
+![Farmers Market Finder Demo](gifs/1.gif)
 ```
 Give examples
 ```
