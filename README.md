@@ -13,8 +13,12 @@ Vamos a necesitar Github para mover el proyecto, y un entorno virtual para Pytho
 Dentro de https://pythonanywhere.com y con la cuenta gratuita configurada; haremos lo siguiente. 
 
 ![Farmers Market Finder Demo](gifs/1.gif)
+https://www.youtube.com/watch?v=Ix942KTE54A
 ```
-Give examples
+ > - Aplicaciones Webs
+ > - Nueva App
+ > - Configuración Manual
+ > - Python 3.7 ( Incluye Virtualenv )
 ```
 
 ### Instalación Local
