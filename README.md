@@ -83,34 +83,42 @@ Ahora tenemos un entorno virtual con django y nuestro proyecto en la nube.
 
 ## Finalmente
 
-Add additional notes about how to deploy this on a live system
+Configuramos las variables de la aplicación web.
 
-## Built With
+```
+Source code:
+/home/fraediaz7/Django_en_PythonAnywhere.com/Proyecto/
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+Virtualenv
+/home/fraediaz7/venv
+```
 
-## Contributing
+Reemplazemos todo el texto de /var/www/fraediaz7_pythonanywhere_com_wsgi.py.
+En Code>WSGI configuration file:
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Pega este código, recuerda reemplazar rutas y variables según corresponda en tu propio proyecto.
 
-## Versioning
+´´´
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+import os
+import sys
 
-## Authors
+path = '/home/fraediaz7/Django_en_PythonAnywhere.com/Proyecto'
+if path not in sys.path:
+    sys.path.insert(0, path)
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+os.environ['DJANGO_SETTINGS_MODULE'] = 'Proyecto.settings'
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+from django.core.wsgi import get_wsgi_application
+application = get_wsgi_application()
 
-## License
+´´´
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
+## Reoad la Web App, y automágicamente; Listo!
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+
+
+## Autor
+
+* **Franco Díaz** - *Python Developer* - [@fraediaz](https://github.com/fraediaz)
