@@ -54,15 +54,12 @@ Para correrlo localmente, incluyo 'localhost'
 Si todo marcha bien, podrán verlo correr en http://localhot
 
 
-### Break down into end to end tests
+### Subir el proyecto a Github.
 
-Explain what these tests test and why
+Suben el proyecto configurado previamente a su cuenta, lo demás se hace en el servidor.
 
-```
-Give an example
-```
 
-### And coding style tests
+### En Pythonanywhere.com
 
 Explain what these tests test and why
 
