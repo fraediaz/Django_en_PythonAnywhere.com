@@ -19,7 +19,7 @@ https://www.youtube.com/watch?v=Ix942KTE54A
  >  Aplicaciones Webs
  >  Nueva App
  >  Configuración Manual
- >  Python 3.7 ( Incluye Virtualenv )
+ >  Python 3.7
 ```
 
 ## Instalación Local
@@ -61,13 +61,16 @@ Suben el proyecto configurado previamente a su cuenta, lo demás se hace en el s
 
 ### En Pythonanywhere.com
 
-Explain what these tests test and why
+En el apartado Consolas, entraremos a un terminal $BASH, crearemos un entorno virtual e instalaremos Django. (Recordar que es el modo de configuración manual)
 
 ```
-Give an example
+$ virtualenv --python=python3.7 venv
+$ source venv/bin/activate
+(venv)$ pip install django
+
 ```
 
-## Deployment
+## Finalmente
 
 Add additional notes about how to deploy this on a live system
 
