@@ -14,7 +14,6 @@ Dentro de https://pythonanywhere.com y con la cuenta gratuita configurada; harem
 
 ![Farmers Market Finder Demo](gifs/1.gif)
 
-https://www.youtube.com/watch?v=Ix942KTE54A
 ```
  >  Aplicaciones Webs
  >  Nueva App
@@ -98,7 +97,7 @@ En Code>WSGI configuration file:
 
 Pega este código, recuerda reemplazar rutas y variables según corresponda en tu propio proyecto.
 
-´´´
+```
 
 import os
 import sys
@@ -112,12 +111,12 @@ os.environ['DJANGO_SETTINGS_MODULE'] = 'Proyecto.settings'
 from django.core.wsgi import get_wsgi_application
 application = get_wsgi_application()
 
-´´´
+```
 
 
-## Reoad la Web App, y automágicamente; Listo!
+## Reoad a la Aplicación y automágicamente; Listo!
 
-
+![Farmers Market Finder Demo](gifs/2.gif)
 
 ## Autor
 
