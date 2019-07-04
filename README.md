@@ -6,7 +6,7 @@ Una alternativa sólida a otros VPS.
 
 Para este ejemplo, usaremos la configuración manual del servidor, aún no hay soporte para Django2.2.
 
-Vamos a necesitar GitHub para mover el proyecto, y un entorno virtual para Python 3.7.
+Vamos a necesitar Github para mover el proyecto, y un entorno virtual para Python 3.7.
 
 ### Pre-Requisitos
 
@@ -17,11 +17,9 @@ Dentro de https://pythonanywhere.com y con la cuenta gratuita configurada; harem
 Give examples
 ```
 
-### Installing
+### Instalación Local
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+Podemos hacerlo directamente en el servidor, pero en este ejemplo crearemos el proyecto de forma local, y luego con Github lo clonaremos a la nube.
 
 ```
 Give the example
