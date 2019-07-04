@@ -61,7 +61,9 @@ Suben el proyecto configurado previamente a su cuenta, lo demás se hace en el s
 
 ### En Pythonanywhere.com
 
-En el apartado Consolas, entraremos a un terminal $BASH, crearemos un entorno virtual e instalaremos Django. (Recordar que es el modo de configuración manual)
+En el apartado Consolas, entraremos a un terminal $BASH, crearemos un entorno virtual e instalaremos Django. (Recordar que es el modo de configuración manual).
+
+
 
 ```
 $ virtualenv --python=python3.7 venv
@@ -69,6 +71,15 @@ $ source venv/bin/activate
 (venv)$ pip install django
 
 ```
+Sin salir de la terminal, clonamos nuestro proyecto desde Github
+
+```
+
+(venv)$ git clone https://github.com/fraediaz/Django_en_PythonAnywhere.com.git
+
+```
+
+Ahora tenemos un entorno virtual con django y nuestro proyecto en la nube.
 
 ## Finalmente
 

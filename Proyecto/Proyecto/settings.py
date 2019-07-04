@@ -25,7 +25,7 @@ SECRET_KEY = '5t-r)c^2e3w1wjcp)@&14z%9i42&-=8qf&32kc+wj-b&rcpoll'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['fraediaz7.pythonanywhere.com']
 
 
 # Application definition
