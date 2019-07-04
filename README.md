@@ -13,33 +13,46 @@ Vamos a necesitar Github para mover el proyecto, y un entorno virtual para Pytho
 Dentro de https://pythonanywhere.com y con la cuenta gratuita configurada; haremos lo siguiente. 
 
 ![Farmers Market Finder Demo](gifs/1.gif)
+
 https://www.youtube.com/watch?v=Ix942KTE54A
 ```
- > - Aplicaciones Webs
- > - Nueva App
- > - Configuración Manual
- > - Python 3.7 ( Incluye Virtualenv )
+ >  Aplicaciones Webs
+ >  Nueva App
+ >  Configuración Manual
+ >  Python 3.7 ( Incluye Virtualenv )
 ```
 
-### Instalación Local
+## Instalación Local
 
 Podemos hacerlo directamente en el servidor, pero en este ejemplo crearemos el proyecto de forma local, y luego con Github lo clonaremos a la nube.
 
 ```
-Give the example
+ $ virtualenv --python=python3.7 venv
+ $ source venv/bin/activate
+ (venv)$ pip install django
+ (venv)$ django-admin startproyect Proyecto
+
 ```
 
-And repeat
+Con lo anterior, tenemos un proyecto Django2.2 bajo un entorno virtual de Python3.7
+
+Debemos configurar el archivo settings.py
+Cambiar las siguiente lineas.
+```
+ALLOWED_HOSTS = ['fraediaz7.pythonanywhere.com','localhost']
+LANGUAGE_CODE = 'es-cl'
+```
+
+Mi host corresponde a 'fraediaz7', deben cambiar según su dominio.
+Para correrlo localmente, incluyo 'localhost'
 
 ```
-until finished
+(venv)$ cd Proyecto/
+(venv)$ python manage.py runserver 0:80
+
 ```
+Si todo marcha bien, podrán verlo correr en http://localhot
 
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
 
 ### Break down into end to end tests
 
